@@ -35,7 +35,7 @@ export const AdmCursos = () =>{
 
         <Container>
 
-            {cursos.map(({_id, idioma, horario, imagen, modalidad}) =>(
+            {cursos.map(({_id, idioma, dia, horario, imagen, modalidad}) =>(
                  <ListGroup key={_id}>
                     <ListGroup.Item>
                         <div>
@@ -51,12 +51,12 @@ export const AdmCursos = () =>{
                         </div>
                     </ListGroup.Item>
 
-                    {/* <ListGroup.Item>
+                    <ListGroup.Item>
                         <div>
                             <div>Dias de cursada</div>
                             <h3> {dia} </h3>
                         </div>
-                    </ListGroup.Item> */}
+                    </ListGroup.Item>
 
                     <ListGroup.Item>
                         <div>
